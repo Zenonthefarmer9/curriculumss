@@ -1,0 +1,966 @@
+{
+  "perfiles": [
+    {
+      "nombre": "Liliana Ramírez",
+      "fecha_nacimiento": "1994-08-11",
+      "sexo": "F",
+      "cargo": "Consultora SAP SD",
+      "contacto": ["liliana.ramirez7797@gmail.com", "985374612"],
+      "ubicacion": "Miraflores - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/liliana_ramirez.png",
+      "resumen": "Consultora SAP SD con 7+ años optimizando procesos de ventas, pricing y entregas en S/4HANA, enfocada en reducción de tiempos de ciclo y excelencia operativa.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Alicorp",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Remoto / Lima",
+          "sector": "Consumo Masivo",
+          "logros": [
+            "Reducción del lead time de pedido a factura en 32% mediante automatización de entregas y billing.",
+            "Disminución de notas de crédito por pricing en 40% con condiciones y escalas validadas.",
+            "Aumento de exactitud de disponibilidad (ATP) a 98% integrando SD ↔ MM/PP."
+          ],
+          "actividades": [
+            "Configuración de pricing (VK11/VK31), esquemas y exclusiones.",
+            "Optimización de escenarios OTC (pedido, entrega, transporte, facturación).",
+            "Soporte UAT, formación a key users y documentación funcional."
+          ],
+          "proyectos": [
+            "S/4HANA Sales Conversion con migración de condiciones de precio.",
+            "Implementación de backorder processing y reprogramación VBBE/VBEP.",
+            "Integración SD ↔ TM para transporte y costos de flete."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Backus",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Bebidas",
+          "logros": [
+            "Reducción de rechazos de entrega en 28% con validaciones de crédito y lotes.",
+            "Mejora de fill rate en 15% con reglas de sustitución de materiales.",
+            "Automatización de devoluciones, bajando tiempos de abono en 45%."
+          ],
+          "actividades": [
+            "Modelado de contratos, acuerdos marco y rebates (condiciones de devolución).",
+            "Parametrización de determinación de impuestos y cuentas.",
+            "Monitoreo de interfases EDI para órdenes de clientes."
+          ],
+          "proyectos": [
+            "Programa de fidelización con pricing promocional y escalas por canal.",
+            "Implementación de SD Billing con split de facturas por condiciones.",
+            "Integración con CRM para órdenes omnicanal."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Claro",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Telecomunicaciones",
+          "logros": [
+            "Disminución de tiempos de activación postpago en 35%.",
+            "Reducción de inconsistencias de facturación en 30% mediante validaciones de ciclo.",
+            "Mejora del NPS postventa en 12 puntos por procesos más simples."
+          ],
+          "actividades": [
+            "Implementación de procesos OTC con bundles y servicios.",
+            "Determinación de cuentas y centros de beneficio para reporting.",
+            "Capacitación y manuales de operación para equipos comerciales."
+          ],
+          "proyectos": [
+            "Integración SD ↔ BTP para órdenes digitales y pasarela de pagos.",
+            "Catálogo de precios dinámico por campaña.",
+            "Automatización de notas de débito/crédito por ajustes."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería Industrial", "institucion": "Universidad de Lima"}
+      ],
+      "certificaciones": [
+        "SAP Certified Associate – SAP S/4HANA Sales",
+        "SAP Activate Project Manager (Associate)"
+      ],
+      "habilidades": [
+        "S/4HANA Sales (SD)", "Pricing", "OTC", "ATP", "Rebates", "EDI", "Integración SD-MM-FI"
+      ],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Jorge Martínez",
+      "fecha_nacimiento": "1982-06-04",
+      "sexo": "M",
+      "cargo": "Consultor SAP FI",
+      "contacto": ["jorge.martinezz6219@gmail.com", "912846537"],
+      "ubicacion": "San Borja - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/jorge_martinez.png",
+      "resumen": "Consultor SAP FI con 10+ años en contabilidad financiera S/4HANA: cierres acelerados, conciliaciones automatizadas y cumplimiento SOX/NIIF.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP FI",
+          "empresa": "BBVA",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Lima",
+          "sector": "Banca",
+          "logros": [
+            "Cierre contable reducido de D+6 a D+3 con jobs de automatización.",
+            "Disminución de diferencias de conciliación en 62% con reglas y match automático.",
+            "Trazabilidad SOX completa con auditorías exitosas en 2024."
+          ],
+          "actividades": [
+            "Parametrización New GL, segment reporting y ledger paralelo.",
+            "Automatización de conciliaciones bancarias (EBBS/EBRS).",
+            "Diseño de reportes FIORI para estados financieros."
+          ],
+          "proyectos": [
+            "Migración ECC → S/4HANA 2023 (Finance).",
+            "Integración FI ↔ TRM para tesorería y derivados.",
+            "Monitoreo de interfaces de extractos MT940."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP FI",
+          "empresa": "Scotiabank",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Banca",
+          "logros": [
+            "Reducción de ajustes manuales en 45% por reglas de contabilización.",
+            "Mejora del tiempo de preparación de estados NIIF en 30%.",
+            "Automatización de provisiones recurrentes con plantillas."
+          ],
+          "actividades": [
+            "Configuración AP/AR/AA, determinación de cuentas y retenciones.",
+            "Diseño de controles FI-AA para activos y depreciaciones.",
+            "Soporte fiscal e impuestos (PER) integrado con SD/MM."
+          ],
+          "proyectos": [
+            "Proyecto de cierres continuos (continuous closing).",
+            "Integración con sistemas externos para facturas electrónicas.",
+            "Implementación de reportes IFRS en Fiori."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP FI",
+          "empresa": "Banco de Crédito del Perú",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Banca",
+          "logros": [
+            "Disminución de reprocesos contables en 33%.",
+            "Reducción de tiempos de conciliación de días a horas.",
+            "Mejora de calidad de datos maestros en 40%."
+          ],
+          "actividades": [
+            "Parametrización de pagos automáticos y medios magnéticos.",
+            "Diseño de políticas de cierre y calendario.",
+            "Capacitación a contabilidad y tesorería."
+          ],
+          "proyectos": [
+            "Implementación de Bank Communication Management.",
+            "Integración FI ↔ CO para centros de beneficio.",
+            "Data cleansing y gobernanza de maestros."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Contabilidad y Finanzas", "institucion": "Pontificia Universidad Católica del Perú"}
+      ],
+      "certificaciones": [
+        "SAP Certified Associate – SAP S/4HANA Financial Accounting",
+        "NIIF Diplomado"
+      ],
+      "habilidades": [
+        "SAP FI", "New GL", "AP/AR/AA", "Banking/EBanking", "IFRS/NIIF", "S/4HANA Finance", "Fiori Finance"
+      ],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio-Avanzado"}
+    },
+
+    {
+      "nombre": "Emilia Rivera",
+      "fecha_nacimiento": "1995-01-23",
+      "sexo": "F",
+      "cargo": "Consultora SAP SD",
+      "contacto": ["emilia.rivera48896@gmail.com", "934215768"],
+      "ubicacion": "Comas - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/emilia_rivera.png",
+      "resumen": "Consultora SAP SD con 6+ años en procesos OTC, pricing avanzado y devoluciones; foco en reducción de rechazos y exactitud de facturación.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Intercorp",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Lima",
+          "sector": "Retail",
+          "logros": [
+            "Incremento del fill rate en 18% con reglas de sustitución.",
+            "Reducción de errores de pricing en 35% con validaciones de condición.",
+            "Disminución del ciclo order-to-cash en 28%."
+          ],
+          "actividades": [
+            "Configuración de listas de precio, escalas y exclusiones.",
+            "Optimización de entregas parciales y picking.",
+            "Dashboards KPI OTC en Fiori."
+          ],
+          "proyectos": [
+            "Omnicanalidad SD con integración eCommerce.",
+            "Backorder processing con estrategias de reaprovisionamiento.",
+            "Automatización de notas de crédito por devolución."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Entel",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Telecomunicaciones",
+          "logros": [
+            "Reducción de tiempo de activación de servicios en 30%.",
+            "Mejora de NPS en 10 puntos por simplificación de procesos.",
+            "Facturación precisa con split según bundle y plan."
+          ],
+          "actividades": [
+            "Modelado de servicios y bundles en SD.",
+            "Determinación de impuestos y cuentas.",
+            "Soporte N2 y UAT con áreas comerciales."
+          ],
+          "proyectos": [
+            "Integración SD ↔ BTP para órdenes digitales.",
+            "Pricing promocional por campaña/segmento.",
+            "Gestión de devoluciones y abonos automatizados."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Graña y Montero",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Construcción",
+          "logros": [
+            "Mejora de control de proyectos con SD-PS en 25%.",
+            "Disminución de notas de crédito en 22%.",
+            "Visibilidad de pipeline de ventas con reporting Fiori."
+          ],
+          "actividades": [
+            "Configuración de contratos y hitos de facturación.",
+            "Integración SD ↔ PS para proyectos por avance.",
+            "Capacitación a PMO/ventas."
+          ],
+          "proyectos": [
+            "Facturación por hitos con milestones PS.",
+            "SD Billing split por proyecto y cuenta contable.",
+            "Interfaz con portal de clientes."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Administración", "institucion": "Universidad Peruana de Ciencias Aplicadas"}
+      ],
+      "certificaciones": ["SAP Certified Associate – SAP S/4HANA Sales"],
+      "habilidades": ["S/4HANA SD", "OTC", "Pricing", "ATP", "Rebates", "Fiori KPIs"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Felipe Cano",
+      "fecha_nacimiento": "1990-09-12",
+      "sexo": "M",
+      "cargo": "Consultor SAP FI",
+      "contacto": ["felipeee.cano34@gmail.com", "956128743"],
+      "ubicacion": "Lurín - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/felipe_cano.png",
+      "resumen": "Consultor SAP FI con 8+ años, experto en cierres, conciliaciones bancarias y automatización de pagos; orientación a control y cumplimiento.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP FI",
+          "empresa": "Grupo Gloria",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Lima",
+          "sector": "Alimentos",
+          "logros": [
+            "Cierre de D+7 a D+3 con calendarización y jobs automáticos.",
+            "Reducción de diferencias bancarias en 58% con match rules.",
+            "Reporte NIIF en Fiori con 100% de adopción en finanzas."
+          ],
+          "actividades": [
+            "Parametrización New GL, segmentación y ledger paralelo.",
+            "Automatización de conciliaciones y pagos masivos.",
+            "Diseño de catálogos contables y controles SOX."
+          ],
+          "proyectos": [
+            "S/4HANA 2022 Finance upgrade.",
+            "Integración con bancos (MT940/ISO20022).",
+            "KPIs financieros en Fiori."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP FI",
+          "empresa": "Repsol",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Energía",
+          "logros": [
+            "Optimización de pagos, reduciendo incidencias en 40%.",
+            "Automatización de provisiones periódicas en 100% de sociedades.",
+            "Disminución de manual journal entries en 35%."
+          ],
+          "actividades": [
+            "Configuración AP/AR/AA e impuestos locales.",
+            "Reportes financieros con drilldown.",
+            "Soporte a auditorías externas."
+          ],
+          "proyectos": [
+            "Implementación de BCM y workflows de aprobación.",
+            "Integración FI ↔ CO para centros de beneficio.",
+            "Data quality y gobierno de datos contables."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP FI",
+          "empresa": "Calidda",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Energía",
+          "logros": [
+            "Reducción de tiempos de conciliación en 60%.",
+            "Mejoras en reporting NIIF con cierres parciales.",
+            "Cumplimiento fiscal sin hallazgos críticos."
+          ],
+          "actividades": [
+            "Parametrización de extractos y reglas.",
+            "Determinación de cuentas e impuestos.",
+            "Capacitación a contabilidad y tesorería."
+          ],
+          "proyectos": [
+            "Proyecto de cierres continuos mensual/semanal.",
+            "Integración con plataformas bancarias.",
+            "Automatización de contabilizaciones periódicas."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Economía", "institucion": "Universidad de Piura"}
+      ],
+      "certificaciones": ["SAP Certified Associate – SAP S/4HANA Financial Accounting"],
+      "habilidades": ["SAP FI", "New GL", "Conciliaciones", "Pagos", "IFRS/NIIF", "Fiori Finance"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Alicia Moreno",
+      "fecha_nacimiento": "1988-12-01",
+      "sexo": "F",
+      "cargo": "Consultora SAP SD",
+      "contacto": ["aliciaaz.moreno76@gmail.com", "978452631"],
+      "ubicacion": "Magdalena del Mar - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/alicia_moreno.png",
+      "resumen": "Consultora SAP SD con 9+ años, especialista en pricing complejo, rebates y devoluciones; mejora de exactitud de facturación y satisfacción del cliente.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Grupo Gloria",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Lima",
+          "sector": "Alimentos",
+          "logros": [
+            "Exactitud de facturación al 99% con validaciones previas a billing.",
+            "Rebates automatizados, reduciendo ajustes manuales en 50%.",
+            "ATP con reaprovisionamiento elevó fill rate en 16%."
+          ],
+          "actividades": [
+            "Configuración de pricing y escalas por canal.",
+            "Optimización de procesos OTC end-to-end.",
+            "Gestión de devoluciones y notas de crédito."
+          ],
+          "proyectos": [
+            "S/4HANA Sales upgrade 2023.",
+            "Integración SD ↔ TM para costos de flete.",
+            "KPIs OTC en Fiori."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Alicorp",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Consumo Masivo",
+          "logros": [
+            "Reducción del ciclo pedido-entrega en 27%.",
+            "Disminución de reclamos por precios en 38%.",
+            "Adopción de apps Fiori OTC al 85% del equipo."
+          ],
+          "actividades": [
+            "Determinación de impuestos y cuentas.",
+            "Backorder processing y reglas de sustitución.",
+            "Soporte UAT e hiper-care."
+          ],
+          "proyectos": [
+            "Promociones y descuentos por segmento.",
+            "Interfaz SD ↔ eCommerce.",
+            "Automatización de devoluciones."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Telefónica",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Telecomunicaciones",
+          "logros": [
+            "Reducción del tiempo de activación en 29%.",
+            "Split de facturas por servicio sin errores (99.5% exactitud).",
+            "NPS +9 puntos tras simplificación OTC."
+          ],
+          "actividades": [
+            "Modelado de bundles y servicios.",
+            "Determinación contable por centro de beneficio.",
+            "Capacitación a ventas/postventa."
+          ],
+          "proyectos": [
+            "Órdenes digitales integradas con BTP.",
+            "Pricing dinámico por campaña.",
+            "Facturación por hitos de servicio."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería de Sistemas", "institucion": "Universidad Tecnológica del Perú"}
+      ],
+      "certificaciones": ["SAP Certified Associate – SAP S/4HANA Sales"],
+      "habilidades": ["SD", "Pricing", "OTC", "Rebates", "Fiori OTC", "Integración SD-MM-FI"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Alejandro Romero",
+      "fecha_nacimiento": "1992-06-30",
+      "sexo": "M",
+      "cargo": "Consultor SAP MM",
+      "contacto": ["alleejandro.romero88@gmail.com", "947852130"],
+      "ubicacion": "San Juan de Lurigancho - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/alejandro_romero.png",
+      "resumen": "Consultor SAP MM con 7+ años optimizando compras, inventarios y proveedores; foco en ahorro, trazabilidad y disponibilidad.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP MM",
+          "empresa": "SEIDOR",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Remoto / Lima",
+          "sector": "Consultoría",
+          "logros": [
+            "Ahorros de 12% en spend con acuerdos y fuentes preferidas.",
+            "Stock-outs reducidos en 30% con MRP y reorden.",
+            "Tiempo de ciclo P2P disminuido en 25%."
+          ],
+          "actividades": [
+            "Parametrización de maestros, lotes y tipos de stock.",
+            "Optimización de requisiciones, órdenes y entradas de mercancía.",
+            "Integración MM ↔ SD/PP para disponibilidad."
+          ],
+          "proyectos": [
+            "S/4HANA Sourcing & Procurement rollout.",
+            "Catálogo de compras con aprobación en Fiori.",
+            "Vendor evaluation y SRM básico."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP MM",
+          "empresa": "DIVEMOTOR",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Automotriz",
+          "logros": [
+            "Exactitud de inventario +15% con conteos cíclicos.",
+            "Backorders disminuidos en 22% con estrategias de stock.",
+            "Reducción de mermas en 18% con control de lotes."
+          ],
+          "actividades": [
+            "Gestión de contratos marco y condiciones de compra.",
+            "Determinación de cuentas y valuación.",
+            "Reportes Fiori de rotación e inventario."
+          ],
+          "proyectos": [
+            "Implementación de MRP y parámetros de reorden.",
+            "Integración con almacenes externos (EDI).",
+            "KPIs de abastecimiento en Fiori."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP MM",
+          "empresa": "Crosland",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Automotriz",
+          "logros": [
+            "Plazos de compra reducidos en 28%.",
+            "Compras no planificadas -20% con catálogos y contratos.",
+            "Alineamiento MM-FI sin discrepancias relevantes."
+          ],
+          "actividades": [
+            "Configuración de info records y fuentes de suministro.",
+            "Optimización de entrada de mercancía y facturas.",
+            "Capacitación a logística y compras."
+          ],
+          "proyectos": [
+            "eInvoicing y verificación de facturas.",
+            "Integración con transportistas (ASN).",
+            "Modelo de abastecimiento regional."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería Industrial", "institucion": "Universidad Nacional de Ingeniería"}
+      ],
+      "certificaciones": ["SAP Certified Associate – S/4HANA Sourcing & Procurement (MM)"],
+      "habilidades": ["SAP MM", "MRP", "Inventarios", "Procurement", "Fiori P2P", "Integración MM-SD-FI"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Valeria Suárez",
+      "fecha_nacimiento": "1994-03-21",
+      "sexo": "F",
+      "cargo": "Consultora SAP SD",
+      "contacto": ["valeria.suarezzz34@gmail.com", "923617854"],
+      "ubicacion": "Barranco - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/valeria_suarez.png",
+      "resumen": "Consultora SAP SD con 6+ años en OTC, pricing promocional y facturación; foco en experiencia de cliente y exactitud de ingresos.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Backus",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Lima",
+          "sector": "Bebidas",
+          "logros": [
+            "Reclamaciones por precios -35% tras reingeniería de condiciones.",
+            "Mejora de fill rate en 14% con reglas de sustitución.",
+            "Ciclo pedido-factura -26% con automatización de entregas."
+          ],
+          "actividades": [
+            "Mantenimiento de pricing y escalas por canal.",
+            "Optimización de devoluciones y abonos.",
+            "KPIs OTC en Fiori para ventas."
+          ],
+          "proyectos": [
+            "Integración con eCommerce y OMS.",
+            "SD Billing split por tipo de cliente.",
+            "Promociones multi-nivel por campaña."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Entel",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Telecomunicaciones",
+          "logros": [
+            "Activación de servicios -31% de tiempo.",
+            "NPS +8 puntos por simplificación de procesos.",
+            "Errores de ciclo de facturación -27%."
+          ],
+          "actividades": [
+            "Bundles de servicios y determinación de cuentas.",
+            "Backorder processing y asignación.",
+            "Soporte UAT y formación."
+          ],
+          "proyectos": [
+            "Órdenes digitales con BTP.",
+            "Pricing dinámico por segmento.",
+            "Automatización de notas de crédito."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP SD",
+          "empresa": "Alicorp",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Consumo Masivo",
+          "logros": [
+            "Exactitud de facturación 99%.",
+            "Rebates automatizados y conciliados mensualmente.",
+            "Disponibilidad ATP 97%."
+          ],
+          "actividades": [
+            "Pricing, escalas y exclusiones.",
+            "OTC end-to-end; devoluciones.",
+            "Reportes de ventas en Fiori."
+          ],
+          "proyectos": [
+            "Integración SD ↔ TM.",
+            "Catálogo B2B conectado a SD.",
+            "Backorder y reprogramación."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería de Sistemas", "institucion": "Universidad de Lima"}
+      ],
+      "certificaciones": ["SAP Certified Associate – SAP S/4HANA Sales"],
+      "habilidades": ["SD", "OTC", "Pricing", "Rebates", "Fiori OTC", "Integración SD-MM-FI"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Félix García",
+      "fecha_nacimiento": "1996-12-18",
+      "sexo": "M",
+      "cargo": "Consultor SAP MM",
+      "contacto": ["felix.garcia26267@gmail.com", "965473281"],
+      "ubicacion": "Surquillo - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/felix_garcia.png",
+      "resumen": "Consultor SAP MM con 5+ años mejorando compras, niveles de stock y verificación de facturas; enfoque en ahorro y disponibilidad.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP MM",
+          "empresa": "Grupo Gloria",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Lima",
+          "sector": "Alimentos",
+          "logros": [
+            "Ahorro 9% anual con contratos marco y fuentes preferidas.",
+            "Roturas de stock -25% con MRP y parámetros revisados.",
+            "Exactitud de inventario +12% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros, lotes y tipos de stock.",
+            "P2P: requisiciones, órdenes, entradas y verificación de facturas.",
+            "Integración MM ↔ FI para determinación de cuentas."
+          ],
+          "proyectos": [
+            "Catálogo de compras en Fiori.",
+            "Integración con 3PL vía EDI.",
+            "KPIs de abastecimiento."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP MM",
+          "empresa": "Camposol",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Agroindustria",
+          "logros": [
+            "Compras no planificadas -22%.",
+            "Mermas -17% por control de lotes y vencimientos.",
+            "Backorders -19% con estrategias de stock."
+          ],
+          "actividades": [
+            "Info records y condiciones de compra.",
+            "Optimización de entrada de mercancía y QA.",
+            "Formación a logística."
+          ],
+          "proyectos": [
+            "MRP y reordenamiento por estacionalidad.",
+            "ASN con transportistas.",
+            "Dashboards de rotación."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP MM",
+          "empresa": "Crosland",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Automotriz",
+          "logros": [
+            "Lead time de compra -24%.",
+            "Alineación MM-FI sin discrepancias relevantes.",
+            "Exactitud de inventario 97% en almacén central."
+          ],
+          "actividades": [
+            "Fuentes de suministro y contratos.",
+            "Verificación de facturas y bloqueos.",
+            "Reportes de inventario en Fiori."
+          ],
+          "proyectos": [
+            "Integración con proveedores estratégicos.",
+            "Modelo de abastecimiento regional.",
+            "KPIs de compras."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería Industrial", "institucion": "Universidad Nacional Mayor de San Marcos"}
+      ],
+      "certificaciones": ["SAP Certified Associate – S/4HANA Sourcing & Procurement (MM)"],
+      "habilidades": ["SAP MM", "MRP", "Compras", "Inventarios", "Fiori P2P", "Integración MM-FI"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "Juan Pérez",
+      "fecha_nacimiento": "1990-08-15",
+      "sexo": "M",
+      "cargo": "Consultor SAP BTP",
+      "contacto": ["juan.perezzz2391@gmail.com", "981642573"],
+      "ubicacion": "San Miguel - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/juan_perez.png",
+      "resumen": "Consultor SAP BTP con 7+ años construyendo extensiones cloud, CAP, APIs y automatización CI/CD; foco en time-to-market y seguridad.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "SEIDOR",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Remoto / Lima",
+          "sector": "Consultoría",
+          "logros": [
+            "Reducción del time-to-market en 30% con pipelines CI/CD en BTP.",
+            "Disponibilidad de servicios al 99.9% con observabilidad y alertas.",
+            "Hardening de seguridad: OAuth2/JWT, roles y rotación de secretos."
+          ],
+          "actividades": [
+            "Desarrollo CAP/Node.js y servicios OData.",
+            "API Management, Destinations y XSUAA.",
+            "Automatización con Jenkins/GitHub Actions."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para SD/MM.",
+            "Portales en Build Work Zone.",
+            "Monitoreo con Cloud Logging/Alerts."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "BBVA",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Banca",
+          "logros": [
+            "Latencia de APIs -35% con caching y tuning.",
+            "Cumplimiento de políticas de seguridad al 100%.",
+            "Disponibilidad >99.9% en servicios críticos."
+          ],
+          "actividades": [
+            "CAP, Kyma y conectividad on-prem.",
+            "API Management y rate limiting.",
+            "Observabilidad con métricas y tracing."
+          ],
+          "proyectos": [
+            "Canales digitales integrados a S/4HANA.",
+            "Pasarela de pagos en BTP.",
+            "Eventos asíncronos con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Intercorp",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Retail",
+          "logros": [
+            "Publicación de microservicios con SLA 99.5%.",
+            "Automatización de despliegues multi-tenant.",
+            "Aumento de cobertura de pruebas al 85%."
+          ],
+          "actividades": [
+            "CAP/Node.js, Fiori elements y OData V4.",
+            "Seguridad con roles/grupos y XSUAA.",
+            "Infra como código y pipelines."
+          ],
+          "proyectos": [
+            "Extensiones de catálogo y precios.",
+            "Portal de proveedores en BTP.",
+            "Integración con eCommerce."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería de Sistemas", "institucion": "Universidad Nacional Mayor de San Marcos"}
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": ["SAP BTP", "CAP", "Node.js", "OData", "API Management", "CI/CD", "Event Mesh"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "María García",
+      "fecha_nacimiento": "1995-11-22",
+      "sexo": "F",
+      "cargo": "Consultora SAP Fiori",
+      "contacto": ["maria.garciza78@gmail.com", "993587412"],
+      "ubicacion": "Chorrillos - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/maria_garcia.png",
+      "resumen": "Consultora SAP Fiori con 6+ años desarrollando UI5 accesible y escalable; foco en UX, performance y adopción de usuarios.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP Fiori",
+          "empresa": "SEIDOR",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Remoto / Lima",
+          "sector": "Consultoría",
+          "logros": [
+            "SUS +22 puntos tras rediseño UX.",
+            "Tiempo de respuesta de apps -40% con lazy loading.",
+            "Adopción >80% en 4 meses."
+          ],
+          "actividades": [
+            "Desarrollo UI5/Fiori elements, responsive y a11y.",
+            "Modelado OData y CAP en BTP.",
+            "Pruebas e2e y CI/CD."
+          ],
+          "proyectos": [
+            "Suite Fiori para compras y mantenimiento.",
+            "Portal Launchpad multi-rol.",
+            "Design system reutilizable."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP Fiori",
+          "empresa": "Alicorp",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Consumo Masivo",
+          "logros": [
+            "Tareas manuales -30% por automatización en apps.",
+            "Errores de UI -35% por validaciones y estados.",
+            "NPS +11 puntos en usuarios internos."
+          ],
+          "actividades": [
+            "UI5 con OData V2/V4 y Fiori elements.",
+            "Analytics y KPIs en Fiori.",
+            "Soporte UAT y adopción."
+          ],
+          "proyectos": [
+            "Apps de compras y almacén.",
+            "KPIs operativos en Fiori.",
+            "Theming corporativo."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP Fiori",
+          "empresa": "Backus",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Bebidas",
+          "logros": [
+            "Performance +35% con optimización de bindings.",
+            "Menos tickets de soporte (-28%).",
+            "Accesibilidad AA cumplida."
+          ],
+          "actividades": [
+            "UI5 responsive, i18n y a11y.",
+            "OData services y caching.",
+            "Documentación y handover."
+          ],
+          "proyectos": [
+            "Apps de ventas y logística.",
+            "Launchpad con espacios/páginas.",
+            "Integración con BTP destinos."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería de Software", "institucion": "Universidad de Lima"}
+      ],
+      "certificaciones": [
+        "SAP Certified Development Associate – SAP Fiori Application Developer"
+      ],
+      "habilidades": ["SAP UI5", "Fiori elements", "OData", "CAP", "BTP", "Git", "Jenkins"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+
+    {
+      "nombre": "nelson quispe",
+      "fecha_nacimiento": "1996-03-10",
+      "sexo": "M",
+      "cargo": "Consultor SAP ABAP",
+      "contacto": ["nelsonqqqquispee@gmail.com", "976421835"],
+      "ubicacion": "Jesús María - Lima",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/nelson_quispe.png",
+      "resumen": "Consultor SAP ABAP con 7+ años desarrollando extensiones robustas: OO-ABAP, OData, IDoc y performance; enfoque en calidad y pruebas.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "SEIDOR",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Remoto / Lima",
+          "sector": "Consultoría",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos tras refactorizaciones.",
+            "Cobertura de unit tests >75%.",
+            "Errores de interfase -40% con validaciones en IDoc."
+          ],
+          "actividades": [
+            "OO-ABAP, exits/BADIs y AMDP.",
+            "OData para consumo por Fiori.",
+            "CTS+ y gestión de transportes."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros.",
+            "Interfases IDoc para logística.",
+            "Servicios OData para apps UI5."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Telefónica",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Lima",
+          "sector": "Telecomunicaciones",
+          "logros": [
+            "Tiempos batch -35% con tuning SQL.",
+            "Defectos en QA -30% con pipelines de pruebas.",
+            "SLA de entregas >98%."
+          ],
+          "actividades": [
+            "Desarrollo de APIs y RFCs.",
+            "Optimización de consultas y buffers.",
+            "Soporte N2/N3 y RCA."
+          ],
+          "proyectos": [
+            "Integración con CRM.",
+            "Automatización de procesos de facturación.",
+            "Framework de logs y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Alicorp",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Lima",
+          "sector": "Consumo Masivo",
+          "logros": [
+            "Reducción de incidencias productivas en 25%.",
+            "Mejora de tiempos de picking y despacho con mejoras ABAP.",
+            "Documentación técnica 100% actualizada."
+          ],
+          "actividades": [
+            "Enhancements SD/MM y user exits.",
+            "Desarrollo OData para Fiori.",
+            "Gestión de CTS+ y transportes."
+          ],
+          "proyectos": [
+            "Extensiones de ventas y logística.",
+            "Reportes ALV de inventarios.",
+            "Catalogación técnica y estándares."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería de Sistemas", "institucion": "Universidad Nacional Mayor de San Marcos"}
+      ],
+      "certificaciones": [
+        "SAP Certified Development Associate – ABAP with SAP NetWeaver"
+      ],
+      "habilidades": ["ABAP", "OO-ABAP", "OData", "BAPI/BADI", "IDoc", "ALV", "RFC"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    }
+  ]
+}

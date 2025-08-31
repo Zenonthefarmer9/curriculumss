@@ -49,9 +49,8 @@ def normalize_profiles(data: Any) -> List[Dict[str, Any]]:
     raise ValueError('El JSON debe ser una lista de perfiles o un objeto con clave "perfiles" (lista).')
 
 
-REQUIRED_KEYS = [
-    'nombre', 'cargo', 'contacto', 'resumen', 'experiencias', 'educacion', 'habilidades', 'idiomas'
-]
+DEFAULT_INPUT = os.path.join(PROJECT_ROOT,'cv_template','data','profiles.json')
+REQUIRED_KEYS = ['nombre','cargo', 'contacto', 'resumen', 'experiencias', 'educacion', 'habilidades', 'idiomas']
 
 
 def validate_profile(p: Dict[str, Any]) -> Tuple[bool, List[str]]:

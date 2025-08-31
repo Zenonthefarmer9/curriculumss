@@ -3,7 +3,7 @@
     {
       "nombre": "Natalia Moreno",
       "cargo": "Consultora SAP CPI",
-      "contacto": ["natalia.moreno9112@gmail.com", "+51 999 888 777",],
+      "contacto": ["natalia.moreno9112@gmail.com", "+51 999 888 777"],
       "ubicacion": "Miraflores, Lima",
       "incluir_foto": true,
       "ruta_foto": "cv_template/assets/photos/natalia_moreno.png",

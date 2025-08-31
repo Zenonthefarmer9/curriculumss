@@ -234,7 +234,7 @@ def demo_data():
         "contacto": ["natalia.moreno9112@gmail.com", "+51 999 888 777", "linkedin.com/in/nmoreno"],
         "ubicacion": "Lima, Perú",
         "incluir_foto": True,
-        "ruta_foto": os.path.join(os.path.dirname(__file__), "assets", "photos", "nataliamorenocv.png"),
+        "ruta_foto": os.path.join(os.path.dirname(__file__), "assets", "photos", "natalia_moreno.png"),
         "photo_position": "right_table",
         "resumen": (
             "Consultora SAP CPI con más de 5 años en integraciones SAP ↔ sistemas externos. "

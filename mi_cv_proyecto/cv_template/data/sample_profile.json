@@ -1,0 +1,56 @@
+{
+  "name": "Ada Lovelace",
+  "title": "Ingeniera de Software | Data Scientist",
+  "contacts": {
+    "email": "ada@example.com",
+    "tel": "+34 600 123 456",
+    "LinkedIn": "linkedin.com/in/adalovelace",
+    "GitHub": "github.com/adalovelace"
+  },
+  "summary": "Profesional con experiencia en análisis de datos y desarrollo de software, enfocada en soluciones escalables y de alto impacto.",
+  "skills": [
+    "Python", "Pandas", "Scikit-learn", "SQL", "AWS", "Docker", "CI/CD"
+  ],
+  "experience": [
+    {
+      "role": "Senior Data Scientist",
+      "company": "TechCorp",
+      "start": "2021",
+      "end": "2025",
+      "summary": "Liderazgo técnico en proyectos de ML end-to-end.",
+      "achievements": [
+        "Aumenté la precisión del modelo un 12% mediante feature engineering.",
+        "Reduje el tiempo de inferencia un 40% con optimizaciones de pipeline."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "DataWorks",
+      "start": "2018",
+      "end": "2021",
+      "summary": "Desarrollo de APIs y servicios cloud nativos.",
+      "achievements": [
+        "Implementé CI/CD reduciendo el tiempo de despliegue en un 60%.",
+        "Diseñé y desarrollé microservicios con alta disponibilidad."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. en Ciencias de la Computación",
+      "school": "Universidad de Algoritmia",
+      "start": "2016",
+      "end": "2018",
+      "details": [
+        "Tesis en modelos de aprendizaje automático explicables."
+      ]
+    },
+    {
+      "degree": "B.Sc. en Ingeniería Informática",
+      "school": "Instituto de Tecnología",
+      "start": "2012",
+      "end": "2016"
+    }
+  ]
+}
+

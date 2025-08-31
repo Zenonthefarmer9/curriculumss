@@ -1,0 +1,68 @@
+{
+  "perfiles": [
+    {
+      "nombre": "Natalia Moreno",
+      "cargo": "Consultora SAP CPI",
+      "contacto": ["natalia.moreno9112@gmail.com", "+51 999 888 777", "linkedin.com/in/nmoreno"],
+      "ubicacion": "Lima, Perú",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/natalia_moreno.png",
+      "resumen": "Consultora SAP CPI con más de 5 años en integraciones SAP ↔ sistemas externos.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP CPI",
+          "empresa": "EXOLMAR S.A.A.",
+          "periodo": "2022 – Actualidad",
+          "ubicacion": "Remoto / Lima",
+          "sector": "Industria",
+          "logros": [
+            "Reducción del tiempo de integración en ~40% mediante optimización de iFlows.",
+            "Monitoreo proactivo que disminuyó incidentes críticos en ~30%."
+          ],
+          "actividades": [
+            "Orquestación y versionado de artefactos CPI.",
+            "Soporte L2/L3 y resolución de incidencias."
+          ],
+          "proyectos": [
+            "Integración SAP ↔ CRM (Salesforce)."
+          ]
+        }
+      ],
+      "educacion": [
+        {"grado": "Ingeniería de Sistemas", "institucion": "PUCP"}
+      ],
+      "certificaciones": ["SAP Certified Associate – SAP Integration Suite (CPI)"],
+      "habilidades": ["SAP CPI", "Integraciones B2B/B2C", "Seguridad"],
+      "idiomas": {"Español": "Nativo", "Inglés": "Intermedio"}
+    },
+    {
+      "nombre": "Ada Lovelace",
+      "cargo": "Ingeniera de Software | Data Scientist",
+      "contacto": ["ada@example.com", "+34 600 123 456", "linkedin.com/in/adalovelace", "github.com/adalovelace"],
+      "ubicacion": "Madrid, España",
+      "incluir_foto": false,
+      "ruta_foto": "cv_template/assets/photos/ejemplo_foto.jpg",
+      "resumen": "Profesional con experiencia en análisis de datos y desarrollo de software.",
+      "experiencias": [
+        {
+          "puesto": "Senior Data Scientist",
+          "empresa": "TechCorp",
+          "periodo": "2021 – 2025",
+          "logros": [
+            "Aumenté la precisión del modelo un 12%.",
+            "Reduje el tiempo de inferencia un 40%."
+          ],
+          "actividades": ["Liderazgo técnico en proyectos de ML end-to-end."],
+          "proyectos": ["Sistema de predicción de demanda a escala"]
+        }
+      ],
+      "educacion": [
+        {"grado": "M.Sc. en Ciencias de la Computación", "institucion": "Universidad de Algoritmia"}
+      ],
+      "certificaciones": [],
+      "habilidades": ["Python", "Pandas", "Scikit-learn", "SQL"],
+      "idiomas": {"Español": "Avanzado", "Inglés": "Avanzado"}
+    }
+  ]
+}
+

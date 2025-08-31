@@ -1,0 +1,5 @@
+python-docx>=1.1.0
+# Dependencias opcionales (instálalas manualmente si las necesitas):
+# Pillow>=10.0.0         # Procesamiento de fotos (recorte 1:1, 600x600, compresión)
+# pandas>=2.0.0          # Lectura de Excel
+# openpyxl>=3.1.0        # Motor para pandas con .xlsx

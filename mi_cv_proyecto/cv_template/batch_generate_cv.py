@@ -1,24 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Generación por lotes de CVs en .docx desde JSON o Excel con múltiples perfiles.
+Generación por lotes de CVs en .docx usando exclusivamente cv_template/data/profiles.json como fuente de perfiles.
 - Opcional: procesar/normalizar fotos (recorte 1:1, 600x600 px, compresión <200 KB) usando Pillow.
 
 Uso ejemplos:
-    # Desde JSON (por defecto apunta a profiles_sample.json)
-    python cv_template/batch_generate_cv.py
-    python cv_template/batch_generate_cv.py -i cv_template/data/profiles_sample.json -o output
+    python cv_template/batch_generate_cv.py -o output --process-photos
 
-    # Desde Excel
-    python cv_template/batch_generate_cv.py -i cv_template/data/perfiles.xlsx -o output --process-photos
-
-Requisitos:
-    - python-docx (requerido)
-    - Pillow (solo si usas --process-photos)
-    - pandas + openpyxl (solo si usas Excel)
-
-Formato esperado:
-    JSON: lista de perfiles o {"perfiles": [...]}, compatible con generate_cv.construir_cv().
-    Excel: columnas flexibles (case-insensitive). Ver README para detalles.
+Notas:
+    - Este script ignora cualquier --input y siempre usa data/profiles.json.
+    - Usa merge_all_profiles.py si necesitas combinar varios JSON en profiles.json.
+    - Si existe data/perfiles_generados_extra.json, se combinará en memoria (sin sobrescribir profiles.json).
 """
 
 import argparse
@@ -32,8 +23,10 @@ from generate_cv import construir_cv
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 PROCESSED_DIRNAME = os.path.join(PROJECT_ROOT, 'output', '_photos_processed')
-DEFAULT_INPUT = os.path.join(PROJECT_ROOT, 'cv_template', 'data', 'usuarios.xlsx')
 DEFAULT_PHOTOS_DIR = os.path.join(PROJECT_ROOT, 'cv_template', 'assets', 'photos')
+DEFAULT_PROFILES_FILE = os.path.join(PROJECT_ROOT, 'cv_template', 'data', 'profiles.json')
+DEFAULT_EXTRA_FILE = os.path.join(PROJECT_ROOT, 'cv_template', 'data', 'perfiles_generados_extra.json')
+DEFAULT_INPUT = DEFAULT_PROFILES_FILE
 
 
 def load_json(path: str) -> Any:
@@ -49,7 +42,6 @@ def normalize_profiles(data: Any) -> List[Dict[str, Any]]:
     raise ValueError('El JSON debe ser una lista de perfiles o un objeto con clave "perfiles" (lista).')
 
 
-DEFAULT_INPUT = os.path.join(PROJECT_ROOT,'cv_template','data','profiles.json')
 REQUIRED_KEYS = ['nombre','cargo', 'contacto', 'resumen', 'experiencias', 'educacion', 'habilidades', 'idiomas']
 
 
@@ -411,43 +403,110 @@ def build_one(profile: Dict[str, Any], outdir: str, process_photos: bool, target
     construir_cv(data, carpeta_salida=outdir)
 
 
+# ------------------
+# Utilidad: unir JSON extra -> profiles.json
+# ------------------
+
+def _normalize_perfiles(data: Any) -> List[Dict[str, Any]]:
+    if isinstance(data, dict) and isinstance(data.get('perfiles'), list):
+        return data['perfiles']
+    if isinstance(data, list):
+        return data
+    raise ValueError('El archivo debe ser lista o {"perfiles": [...]}')
+
+
+def _profile_key_for_merge(p: Dict[str, Any]) -> Tuple[str, str, str]:
+    nombre = str(p.get('nombre', '')).strip().lower()
+    cargo = str(p.get('cargo', '')).strip().lower()
+    try:
+        fingerprint = json.dumps(p, ensure_ascii=False, sort_keys=True)
+    except Exception:
+        fingerprint = nombre + '|' + cargo
+    return (nombre, cargo, fingerprint)
+
+
+def merge_extra_into_profiles(extra_path: str, target_path: str) -> int:
+    if not os.path.exists(extra_path):
+        return 0
+    with open(extra_path, 'r', encoding='utf-8') as f:
+        extra_raw = json.load(f)
+    with open(target_path, 'r', encoding='utf-8') as f:
+        target_raw = json.load(f)
+    extra = _normalize_perfiles(extra_raw)
+    target = _normalize_perfiles(target_raw)
+    combined = list(target) + list(extra)
+    seen = set()
+    result: List[Dict[str, Any]] = []
+    for p in combined:
+        k = _profile_key_for_merge(p)
+        if k in seen:
+            continue
+        seen.add(k)
+        result.append(p)
+    with open(target_path, 'w', encoding='utf-8') as f:
+        json.dump({'perfiles': result}, f, ensure_ascii=False, indent=2)
+    return len(result)
+
+
 def main():
-    parser = argparse.ArgumentParser(description='Genera múltiples CVs .docx desde JSON o Excel.')
-    parser.add_argument('--input', '-i', default=DEFAULT_INPUT, help='usuarios.xlsx')
+    parser = argparse.ArgumentParser(description='Genera múltiples CVs .docx desde data/profiles.json')
+    # --input queda oculto/ignorado para compatibilidad pero no se usará
+    parser.add_argument('--input', '-i', default=DEFAULT_INPUT, help='(IGNORADO) Siempre se usa data/profiles.json')
     parser.add_argument('--outdir', '-o', default=os.path.join(PROJECT_ROOT, 'output'), help='Carpeta de salida (default: output)')
     parser.add_argument('--photos-dir', default=DEFAULT_PHOTOS_DIR, help='Carpeta donde buscar fotos por nombre (Excel)')
     parser.add_argument('--process-photos', action='store_true', help='Procesar fotos (recorte 1:1, 600x600, compresión <200KB) con Pillow')
     parser.add_argument('--target-size', type=int, default=600, help='Tamaño objetivo del lado de la imagen (px)')
     parser.add_argument('--max-bytes', type=int, default=200*1024, help='Tamaño máximo en bytes tras compresión (default 200KB)')
+    # Merge opcional (en disco, previo a generar)
+    parser.add_argument('--merge-extra-to-profiles', action='store_true', help='Unir data/perfiles_generados_extra.json dentro de data/profiles.json antes de generar')
+    parser.add_argument('--extra-file', default=DEFAULT_EXTRA_FILE, help='Ruta del JSON extra (default: data/perfiles_generados_extra.json)')
+    parser.add_argument('--profiles-file', default=DEFAULT_PROFILES_FILE, help='Ruta del profiles.json destino (default: data/profiles.json)')
     args = parser.parse_args()
 
-    print(f"[INFO] Input: {args.input}")
+    if args.merge_extra_to_profiles:
+        try:
+            total = merge_extra_into_profiles(args.extra_file, args.profiles_file)
+            print(f"[INFO] Merge completado en '{args.profiles_file}'. Total perfiles: {total}")
+        except Exception as e:
+            print(f"[ERROR] Falló el merge de perfiles: {e}")
+            sys.exit(1)
+
+    # Forzar uso exclusivo de profiles.json
+    input_path = DEFAULT_PROFILES_FILE
+    print(f"[INFO] Usando única fuente: {os.path.relpath(input_path, PROJECT_ROOT)}")
     print(f"[INFO] Output dir: {args.outdir}")
-    print(f"[INFO] Photos dir: {args.photos_dir}")
     print(f"[INFO] Process photos: {args.process_photos}")
 
-    input_path = args.input
-    if not os.path.isabs(input_path):
-        input_path = os.path.join(PROJECT_ROOT, input_path)
-
     if not os.path.exists(input_path):
-        print(f"[ERROR] No existe el archivo de entrada: {input_path}")
+        print(f"[ERROR] No existe {input_path}. Combina tus archivos con merge_all_profiles.py o crea profiles.json válido.")
         sys.exit(1)
 
-    ext = os.path.splitext(input_path)[1].lower()
-
     try:
-        if ext in ('.json',):
-            data = load_json(input_path)
-            perfiles = normalize_profiles(data)
-        elif ext in ('.xlsx', '.xls'):
-            perfiles = load_profiles_from_excel(input_path, photos_dir=args.photos_dir)
-        else:
-            print(f"[ERROR] Extensión de entrada no soportada: {ext}. Usa .json o .xlsx")
-            sys.exit(1)
+        data = load_json(input_path)
+        perfiles = normalize_profiles(data)
     except Exception as e:
         print(f"[ERROR] No se pudo leer perfiles: {e}")
         sys.exit(1)
+
+    # Combinar en memoria con el archivo extra si existe (sin modificar profiles.json en disco)
+    if os.path.exists(DEFAULT_EXTRA_FILE):
+        try:
+            extra_doc = load_json(DEFAULT_EXTRA_FILE)
+            perfiles_extra = normalize_profiles(extra_doc)
+            before = len(perfiles)
+            combined = perfiles + perfiles_extra
+            seen = set()
+            dedup: List[Dict[str, Any]] = []
+            for p in combined:
+                k = _profile_key_for_merge(p)
+                if k in seen:
+                    continue
+                seen.add(k)
+                dedup.append(p)
+            perfiles = dedup
+            print(f"[INFO] Añadidos {len(perfiles) - before} perfiles extra desde {os.path.relpath(DEFAULT_EXTRA_FILE, PROJECT_ROOT)}. Total: {len(perfiles)}")
+        except Exception as e:
+            print(f"[WARN] No se pudo combinar el extra: {e}")
 
     if args.process_photos and not try_import_pillow():
         print('[ERROR] --process-photos requiere Pillow. Instálalo manualmente: pip install Pillow')

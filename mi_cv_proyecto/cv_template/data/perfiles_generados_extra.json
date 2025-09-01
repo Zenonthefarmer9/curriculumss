@@ -1,0 +1,1684 @@
+{
+  "perfiles": [
+    {
+      "nombre": "Valeria Sofía Mendoza Ríos",
+      "fecha_nacimiento": "1996-03-14",
+      "sexo": "F",
+      "cargo": "Consultora SAP FI",
+      "contacto": [
+        "valeriasofiamendozarios876@gmail.com",
+        "901728759"
+      ],
+      "ubicacion": "Peru",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/valeria_sof_a_mendoza_r_os.png",
+      "resumen": "Consultor(a) SAP FI con más de 8 años: cierres acelerados, conciliaciones y cumplimiento NIIF/SOX.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP FI",
+          "empresa": "Crosland",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Peru",
+          "sector": "Finanzas",
+          "logros": [
+            "Cierre contable de D+7 a D+3 con jobs y calendario.",
+            "Diferencias bancarias -50–65% con reglas y match automático.",
+            "Asientos manuales -30–40% con plantillas y automatización."
+          ],
+          "actividades": [
+            "Parametrización New GL y ledger paralelo.",
+            "Automatización de conciliaciones y pagos.",
+            "Reportes financieros Fiori; soporte a auditoría."
+          ],
+          "proyectos": [
+            "Migración ECC → S/4HANA Finance.",
+            "Integración con bancos (MT940/ISO20022).",
+            "Gobierno de datos contables."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP FI",
+          "empresa": "Grupo Gloria",
+          "periodo": "2022 – 2024",
+          "ubicacion": "Peru",
+          "sector": "Finanzas",
+          "logros": [
+            "Cierre contable de D+7 a D+3 con jobs y calendario.",
+            "Diferencias bancarias -50–65% con reglas y match automático.",
+            "Asientos manuales -30–40% con plantillas y automatización."
+          ],
+          "actividades": [
+            "Parametrización New GL y ledger paralelo.",
+            "Automatización de conciliaciones y pagos.",
+            "Reportes financieros Fiori; soporte a auditoría."
+          ],
+          "proyectos": [
+            "Migración ECC → S/4HANA Finance.",
+            "Integración con bancos (MT940/ISO20022).",
+            "Gobierno de datos contables."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP FI",
+          "empresa": "Entel",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Peru",
+          "sector": "Finanzas",
+          "logros": [
+            "Cierre contable de D+7 a D+3 con jobs y calendario.",
+            "Diferencias bancarias -50–65% con reglas y match automático.",
+            "Asientos manuales -30–40% con plantillas y automatización."
+          ],
+          "actividades": [
+            "Parametrización New GL y ledger paralelo.",
+            "Automatización de conciliaciones y pagos.",
+            "Reportes financieros Fiori; soporte a auditoría."
+          ],
+          "proyectos": [
+            "Migración ECC → S/4HANA Finance.",
+            "Integración con bancos (MT940/ISO20022).",
+            "Gobierno de datos contables."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad Nacional Mayor de San Marcos"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Associate – SAP S/4HANA Financial Accounting"
+      ],
+      "habilidades": [
+        "SAP FI",
+        "New GL",
+        "AP/AR/AA",
+        "Banking",
+        "IFRS/NIIF",
+        "Fiori Finance",
+        "Conciliaciones"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Carla Velázquez Monzon",
+      "fecha_nacimiento": "1993-05-11",
+      "sexo": "F",
+      "cargo": "Consultora SAP MM",
+      "contacto": [
+        "carlazv9355@proton.me",
+        "905788453"
+      ],
+      "ubicacion": "México",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/carla_vel_zquez_monzon.png",
+      "resumen": "Consultor(a) SAP MM con más de 8 años: ahorro, disponibilidad y trazabilidad en el ciclo P2P.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP MM",
+          "empresa": "Cemex",
+          "periodo": "2020 – 2022",
+          "ubicacion": "México",
+          "sector": "Abastecimiento / Logística",
+          "logros": [
+            "Ahorros 8–15% con contratos y fuentes preferidas.",
+            "Stock-outs -20–30% con MRP y parámetros.",
+            "Exactitud de inventario +10–15% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros y valuación.",
+            "Optimización del ciclo P2P.",
+            "KPIs de rotación e inventario en Fiori."
+          ],
+          "proyectos": [
+            "Catálogo de compras y workflows.",
+            "Integración con 3PL/ASN.",
+            "MRP estacional y abastecimiento regional."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP MM",
+          "empresa": "Bimbo",
+          "periodo": "2020 – 2022",
+          "ubicacion": "México",
+          "sector": "Abastecimiento / Logística",
+          "logros": [
+            "Ahorros 8–15% con contratos y fuentes preferidas.",
+            "Stock-outs -20–30% con MRP y parámetros.",
+            "Exactitud de inventario +10–15% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros y valuación.",
+            "Optimización del ciclo P2P.",
+            "KPIs de rotación e inventario en Fiori."
+          ],
+          "proyectos": [
+            "Catálogo de compras y workflows.",
+            "Integración con 3PL/ASN.",
+            "MRP estacional y abastecimiento regional."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP MM",
+          "empresa": "Banorte",
+          "periodo": "2019 – 2021",
+          "ubicacion": "México",
+          "sector": "Abastecimiento / Logística",
+          "logros": [
+            "Ahorros 8–15% con contratos y fuentes preferidas.",
+            "Stock-outs -20–30% con MRP y parámetros.",
+            "Exactitud de inventario +10–15% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros y valuación.",
+            "Optimización del ciclo P2P.",
+            "KPIs de rotación e inventario en Fiori."
+          ],
+          "proyectos": [
+            "Catálogo de compras y workflows.",
+            "Integración con 3PL/ASN.",
+            "MRP estacional y abastecimiento regional."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "UDLAP"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Associate – S/4HANA Sourcing & Procurement (MM)"
+      ],
+      "habilidades": [
+        "SAP MM",
+        "MRP",
+        "Compras",
+        "Inventarios",
+        "Valuación",
+        "Fiori P2P",
+        "Integración MM-SD-FI"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Mark Sanchez",
+      "fecha_nacimiento": "1990-09-18",
+      "sexo": "M",
+      "cargo": "Consultor SAP CPI",
+      "contacto": [
+        "galaxy.mark1@hotmail.com",
+        "911005456"
+      ],
+      "ubicacion": "España",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/mark_sanchez.png",
+      "resumen": "Consultor(a) SAP CPI con más de 8 años integrando SAP ↔ externos, con foco en resiliencia y seguridad.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP CPI",
+          "empresa": "Indra",
+          "periodo": "2022 – 2024",
+          "ubicacion": "España",
+          "sector": "Integración",
+          "logros": [
+            "Tiempo de integración -35–45% con iFlows optimizados.",
+            "Incidentes críticos -25–40% con monitoreo proactivo.",
+            "Cobertura de pruebas de integración >85%."
+          ],
+          "actividades": [
+            "Diseño y versionado de artefactos CPI.",
+            "Soporte N2/N3 y RCA.",
+            "Hardening (OAuth2, keystores) y gestión de credenciales."
+          ],
+          "proyectos": [
+            "Integración SAP ↔ Salesforce/eCommerce.",
+            "Flujos B2B AS2/SFTP.",
+            "APIs en API Management."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP CPI",
+          "empresa": "Santander",
+          "periodo": "2022 – 2024",
+          "ubicacion": "España",
+          "sector": "Integración",
+          "logros": [
+            "Tiempo de integración -35–45% con iFlows optimizados.",
+            "Incidentes críticos -25–40% con monitoreo proactivo.",
+            "Cobertura de pruebas de integración >85%."
+          ],
+          "actividades": [
+            "Diseño y versionado de artefactos CPI.",
+            "Soporte N2/N3 y RCA.",
+            "Hardening (OAuth2, keystores) y gestión de credenciales."
+          ],
+          "proyectos": [
+            "Integración SAP ↔ Salesforce/eCommerce.",
+            "Flujos B2B AS2/SFTP.",
+            "APIs en API Management."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP CPI",
+          "empresa": "Dia",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "España",
+          "sector": "Integración",
+          "logros": [
+            "Tiempo de integración -35–45% con iFlows optimizados.",
+            "Incidentes críticos -25–40% con monitoreo proactivo.",
+            "Cobertura de pruebas de integración >85%."
+          ],
+          "actividades": [
+            "Diseño y versionado de artefactos CPI.",
+            "Soporte N2/N3 y RCA.",
+            "Hardening (OAuth2, keystores) y gestión de credenciales."
+          ],
+          "proyectos": [
+            "Integración SAP ↔ Salesforce/eCommerce.",
+            "Flujos B2B AS2/SFTP.",
+            "APIs en API Management."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad Politécnica de Madrid"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Associate – SAP Integration Suite (CPI)"
+      ],
+      "habilidades": [
+        "SAP CPI",
+        "Integration Suite",
+        "iFlows",
+        "API Management",
+        "OAuth2",
+        "SFTP",
+        "EDI"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Priscila Andrade",
+      "fecha_nacimiento": "1992-02-25",
+      "sexo": "F",
+      "cargo": "Consultora SAP MM",
+      "contacto": [
+        "priscilaa.andrade880@proton.me",
+        "926340677"
+      ],
+      "ubicacion": "Brasil",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/priscila_andrade.png",
+      "resumen": "Consultor(a) SAP MM con más de 7 años: ahorro, disponibilidad y trazabilidad en el ciclo P2P.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP MM",
+          "empresa": "Petrobras",
+          "periodo": "2022 – 2024",
+          "ubicacion": "Brasil",
+          "sector": "Abastecimiento / Logística",
+          "logros": [
+            "Ahorros 8–15% con contratos y fuentes preferidas.",
+            "Stock-outs -20–30% con MRP y parámetros.",
+            "Exactitud de inventario +10–15% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros y valuación.",
+            "Optimización del ciclo P2P.",
+            "KPIs de rotación e inventario en Fiori."
+          ],
+          "proyectos": [
+            "Catálogo de compras y workflows.",
+            "Integración con 3PL/ASN.",
+            "MRP estacional y abastecimiento regional."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP MM",
+          "empresa": "Magazine Luiza",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Brasil",
+          "sector": "Abastecimiento / Logística",
+          "logros": [
+            "Ahorros 8–15% con contratos y fuentes preferidas.",
+            "Stock-outs -20–30% con MRP y parámetros.",
+            "Exactitud de inventario +10–15% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros y valuación.",
+            "Optimización del ciclo P2P.",
+            "KPIs de rotación e inventario en Fiori."
+          ],
+          "proyectos": [
+            "Catálogo de compras y workflows.",
+            "Integración con 3PL/ASN.",
+            "MRP estacional y abastecimiento regional."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP MM",
+          "empresa": "Vale",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Brasil",
+          "sector": "Abastecimiento / Logística",
+          "logros": [
+            "Ahorros 8–15% con contratos y fuentes preferidas.",
+            "Stock-outs -20–30% con MRP y parámetros.",
+            "Exactitud de inventario +10–15% con conteos cíclicos."
+          ],
+          "actividades": [
+            "Parametrización de maestros y valuación.",
+            "Optimización del ciclo P2P.",
+            "KPIs de rotación e inventario en Fiori."
+          ],
+          "proyectos": [
+            "Catálogo de compras y workflows.",
+            "Integración con 3PL/ASN.",
+            "MRP estacional y abastecimiento regional."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "UNICAMP"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Associate – S/4HANA Sourcing & Procurement (MM)"
+      ],
+      "habilidades": [
+        "SAP MM",
+        "MRP",
+        "Compras",
+        "Inventarios",
+        "Valuación",
+        "Fiori P2P",
+        "Integración MM-SD-FI"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Luna Félix",
+      "fecha_nacimiento": "1997-06-30",
+      "sexo": "F",
+      "cargo": "Consultora SAP HR",
+      "contacto": [
+        "lunafelix.52@outlook.com",
+        "940223471"
+      ],
+      "ubicacion": "Argentina",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/luna_f_lix.png",
+      "resumen": "Consultor(a) SAP HR con más de 8 años en PA/OM, nómina y tiempos; foco en cumplimiento y experiencia del empleado.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP HR",
+          "empresa": "Arcor",
+          "periodo": "2020 – 2022",
+          "ubicacion": "Argentina",
+          "sector": "Recursos Humanos",
+          "logros": [
+            "Ciclo de nómina -20–30% con automatizaciones.",
+            "Errores de tiempos -25% con reglas y controles.",
+            "Autoservicios de RR. HH. con adopción >75%."
+          ],
+          "actividades": [
+            "Parametrización PA/OM, PY y TM.",
+            "Reportes HR en Fiori.",
+            "Integraciones con portales y terceros."
+          ],
+          "proyectos": [
+            "Autoservicios y workflows HR en Fiori.",
+            "Integración con payroll externo.",
+            "Data cleansing maestro de empleados."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP HR",
+          "empresa": "Mercado Libre",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Argentina",
+          "sector": "Recursos Humanos",
+          "logros": [
+            "Ciclo de nómina -20–30% con automatizaciones.",
+            "Errores de tiempos -25% con reglas y controles.",
+            "Autoservicios de RR. HH. con adopción >75%."
+          ],
+          "actividades": [
+            "Parametrización PA/OM, PY y TM.",
+            "Reportes HR en Fiori.",
+            "Integraciones con portales y terceros."
+          ],
+          "proyectos": [
+            "Autoservicios y workflows HR en Fiori.",
+            "Integración con payroll externo.",
+            "Data cleansing maestro de empleados."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP HR",
+          "empresa": "Tenaris",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Argentina",
+          "sector": "Recursos Humanos",
+          "logros": [
+            "Ciclo de nómina -20–30% con automatizaciones.",
+            "Errores de tiempos -25% con reglas y controles.",
+            "Autoservicios de RR. HH. con adopción >75%."
+          ],
+          "actividades": [
+            "Parametrización PA/OM, PY y TM.",
+            "Reportes HR en Fiori.",
+            "Integraciones con portales y terceros."
+          ],
+          "proyectos": [
+            "Autoservicios y workflows HR en Fiori.",
+            "Integración con payroll externo.",
+            "Data cleansing maestro de empleados."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad de San Andrés"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Application Associate – HCM (on-prem)"
+      ],
+      "habilidades": [
+        "SAP HCM",
+        "PA/OM",
+        "PY (Payroll)",
+        "TM (Time)",
+        "Fiori HR",
+        "Integraciones HR"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Iván González",
+      "fecha_nacimiento": "1989-03-13",
+      "sexo": "M",
+      "cargo": "Consultor SAP BTP",
+      "contacto": [
+        "ivan.gonzalez76zz@hotmail.com",
+        "948132995"
+      ],
+      "ubicacion": "Chile",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/iv_n_gonz_lez.png",
+      "resumen": "Consultor(a) SAP BTP con más de 9 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "CMPC",
+          "periodo": "2022 – 2024",
+          "ubicacion": "Chile",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "SQM",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Chile",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "LATAM Airlines",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Chile",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "USACH"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Elaine Smith",
+      "fecha_nacimiento": "1982-07-01",
+      "sexo": "F",
+      "cargo": "Consultora SAP BTP",
+      "contacto": [
+        "elaine.smith1011@hotmail.com",
+        "958579954"
+      ],
+      "ubicacion": "USA",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/elaine_smith.png",
+      "resumen": "Consultor(a) SAP BTP con más de 10 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Apple",
+          "periodo": "2021 – 2023",
+          "ubicacion": "USA",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Google",
+          "periodo": "2021 – 2023",
+          "ubicacion": "USA",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Microsoft",
+          "periodo": "2021 – 2023",
+          "ubicacion": "USA",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Harvard University"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Bruno Fernández",
+      "fecha_nacimiento": "1991-10-15",
+      "sexo": "M",
+      "cargo": "Consultor SAP ABAP",
+      "contacto": [
+        "brfernandezzzzz@outlook.com",
+        "966199349"
+      ],
+      "ubicacion": "México",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/bruno_fern_ndez.png",
+      "resumen": "Consultor(a) SAP ABAP con más de 6 años en extensiones robustas con foco en rendimiento y calidad.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Liverpool",
+          "periodo": "2019 – 2021",
+          "ubicacion": "México",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Mabe",
+          "periodo": "2020 – 2022",
+          "ubicacion": "México",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Grupo Modelo",
+          "periodo": "2021 – 2023",
+          "ubicacion": "México",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "IPN"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Development Associate – ABAP with SAP NetWeaver"
+      ],
+      "habilidades": [
+        "ABAP",
+        "OO-ABAP",
+        "OData",
+        "BAPI/BADI",
+        "IDoc",
+        "ALV",
+        "RFC",
+        "AMDP"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Leo Ramos",
+      "fecha_nacimiento": "1995-12-21",
+      "sexo": "M",
+      "cargo": "Consultor SAP BTP",
+      "contacto": [
+        "leo.ramosss39@hotmail.com",
+        "983087251"
+      ],
+      "ubicacion": "Perú",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/leo_ramos.png",
+      "resumen": "Consultor(a) SAP BTP con más de 6 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Telefónica",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Perú",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Intercorp",
+          "periodo": "2020 – 2022",
+          "ubicacion": "Perú",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Repsol",
+          "periodo": "2021 – 2023",
+          "ubicacion": "Perú",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad Nacional Federico Villarreal"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Elsa Jiménez",
+      "fecha_nacimiento": "1987-08-12",
+      "sexo": "F",
+      "cargo": "Consultora SAP BTP",
+      "contacto": [
+        "elsa.jimenez77@hotmail.com",
+        "989570044"
+      ],
+      "ubicacion": "España",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/elsa_jim_nez.png",
+      "resumen": "Consultor(a) SAP BTP con más de 10 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Indra",
+          "periodo": "2021 – 2023",
+          "ubicacion": "España",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Mapfre",
+          "periodo": "2022 – 2024",
+          "ubicacion": "España",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Telefónica",
+          "periodo": "2020 – 2022",
+          "ubicacion": "España",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad Politécnica de Madrid"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Renzo Pérez",
+      "fecha_nacimiento": "1993-04-04",
+      "sexo": "M",
+      "cargo": "Consultor SAP BTP",
+      "contacto": [
+        "renzo_perez45545@hotmail.com",
+        "991143815"
+      ],
+      "ubicacion": "Argentina",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/renzo_p_rez.png",
+      "resumen": "Consultor(a) SAP BTP con más de 5 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Arcor",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Argentina",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Tenaris",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Argentina",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "BBVA Argentina",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "Argentina",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "ITBA"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Sofía Rodríguez",
+      "fecha_nacimiento": "1989-11-09",
+      "sexo": "F",
+      "cargo": "Consultora SAP BTP",
+      "contacto": [
+        "soffia.rodriguez2025@hotmail.com",
+        "991527008"
+      ],
+      "ubicacion": "México",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/sof_a_rodr_guez.png",
+      "resumen": "Consultor(a) SAP BTP con más de 7 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Grupo Modelo",
+          "periodo": "2020 – 2022",
+          "ubicacion": "México",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Banorte",
+          "periodo": "2019 – 2021",
+          "ubicacion": "México",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP BTP",
+          "empresa": "Coppel",
+          "periodo": "2022 – 2024",
+          "ubicacion": "México",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "UNAM"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Javier Martínez",
+      "fecha_nacimiento": "1986-02-03",
+      "sexo": "M",
+      "cargo": "Consultor SAP BTP",
+      "contacto": [
+        "javier.maaartinezz3893@hotmail.com",
+        "913124717"
+      ],
+      "ubicacion": "Colombia",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/javier_mart_nez.png",
+      "resumen": "Consultor(a) SAP BTP con más de 7 años construyendo extensiones cloud y APIs seguras; foco en time-to-market.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Sura",
+          "periodo": "2022 – 2024",
+          "ubicacion": "Colombia",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Nutresa",
+          "periodo": "2022 – 2024",
+          "ubicacion": "Colombia",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP BTP",
+          "empresa": "Grupo Éxito",
+          "periodo": "2020 – 2022",
+          "ubicacion": "Colombia",
+          "sector": "Plataforma / Cloud",
+          "logros": [
+            "Time-to-market -25–35% con pipelines CI/CD.",
+            "Disponibilidad >99.9% con observabilidad y alertas.",
+            "Cumplimiento de seguridad 100% (OAuth2/JWT, secretos)."
+          ],
+          "actividades": [
+            "CAP/Node.js, OData V4 y conectividad híbrida.",
+            "API Management y Destinations.",
+            "Logs, métricas y tracing."
+          ],
+          "proyectos": [
+            "Extensiones side-by-side para procesos SAP.",
+            "Portales en Build Work Zone.",
+            "Arquitecturas event-driven con Event Mesh."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad de los Andes"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified – BTP Extension Developer",
+        "SAP Certified – Integration Suite (Associate)"
+      ],
+      "habilidades": [
+        "SAP BTP",
+        "CAP",
+        "Node.js",
+        "OData",
+        "API Management",
+        "Event Mesh",
+        "CI/CD",
+        "XSUAA"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Isabel Gómez",
+      "fecha_nacimiento": "1994-06-19",
+      "sexo": "F",
+      "cargo": "Consultora SAP Fiori",
+      "contacto": [
+        "isabel.gomez55xz@hotmail.com",
+        "917461681"
+      ],
+      "ubicacion": "Chile",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/isabel_g_mez.png",
+      "resumen": "Consultor(a) SAP Fiori con más de 8 años desarrollando UI5 accesible; foco en UX y performance.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP Fiori",
+          "empresa": "LATAM Airlines",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Chile",
+          "sector": "Experiencia de Usuario",
+          "logros": [
+            "SUS +18–25 puntos tras rediseño UX.",
+            "Performance -30–45% en tiempo de respuesta.",
+            "Adopción >75–85% en 3–4 meses."
+          ],
+          "actividades": [
+            "Desarrollo UI5/Fiori elements responsive.",
+            "Modelado OData y CAP.",
+            "Pruebas e2e y CI/CD."
+          ],
+          "proyectos": [
+            "Launchpad con espacios/páginas.",
+            "KPIs operativos en Fiori.",
+            "Design system reusable."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP Fiori",
+          "empresa": "Falabella",
+          "periodo": "2020 – 2022",
+          "ubicacion": "Chile",
+          "sector": "Experiencia de Usuario",
+          "logros": [
+            "SUS +18–25 puntos tras rediseño UX.",
+            "Performance -30–45% en tiempo de respuesta.",
+            "Adopción >75–85% en 3–4 meses."
+          ],
+          "actividades": [
+            "Desarrollo UI5/Fiori elements responsive.",
+            "Modelado OData y CAP.",
+            "Pruebas e2e y CI/CD."
+          ],
+          "proyectos": [
+            "Launchpad con espacios/páginas.",
+            "KPIs operativos en Fiori.",
+            "Design system reusable."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP Fiori",
+          "empresa": "Codelco",
+          "periodo": "2020 – 2022",
+          "ubicacion": "Chile",
+          "sector": "Experiencia de Usuario",
+          "logros": [
+            "SUS +18–25 puntos tras rediseño UX.",
+            "Performance -30–45% en tiempo de respuesta.",
+            "Adopción >75–85% en 3–4 meses."
+          ],
+          "actividades": [
+            "Desarrollo UI5/Fiori elements responsive.",
+            "Modelado OData y CAP.",
+            "Pruebas e2e y CI/CD."
+          ],
+          "proyectos": [
+            "Launchpad con espacios/páginas.",
+            "KPIs operativos en Fiori.",
+            "Design system reusable."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "USACH"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Development Associate – SAP Fiori Application Developer"
+      ],
+      "habilidades": [
+        "SAP UI5",
+        "Fiori elements",
+        "OData",
+        "CAP",
+        "Testing e2e",
+        "a11y",
+        "Git/Jenkins"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Samuel Reyes",
+      "fecha_nacimiento": "1992-12-22",
+      "sexo": "M",
+      "cargo": "Consultor SAP ABAP",
+      "contacto": [
+        "samuel.reyes58589@hotmail.com",
+        "925708936"
+      ],
+      "ubicacion": "Perú",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/samuel_reyes.png",
+      "resumen": "Consultor(a) SAP ABAP con más de 9 años en extensiones robustas con foco en rendimiento y calidad.",
+      "experiencias": [
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Banco de Crédito del Perú",
+          "periodo": "2020 – 2022",
+          "ubicacion": "Perú",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Graña y Montero",
+          "periodo": "2019 – 2021",
+          "ubicacion": "Perú",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultor SAP ABAP",
+          "empresa": "Telefónica",
+          "periodo": "2022 – 2024",
+          "ubicacion": "Perú",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Pontificia Universidad Católica del Perú"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Development Associate – ABAP with SAP NetWeaver"
+      ],
+      "habilidades": [
+        "ABAP",
+        "OO-ABAP",
+        "OData",
+        "BAPI/BADI",
+        "IDoc",
+        "ALV",
+        "RFC",
+        "AMDP"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    },
+    {
+      "nombre": "Cristina López",
+      "fecha_nacimiento": "1996-07-14",
+      "sexo": "F",
+      "cargo": "Consultora SAP ABAP",
+      "contacto": [
+        "cristinaaa.lopz77@hotmail.com",
+        "928617169"
+      ],
+      "ubicacion": "España",
+      "incluir_foto": true,
+      "ruta_foto": "cv_template/assets/photos/cristina_l_pez.png",
+      "resumen": "Consultor(a) SAP ABAP con más de 5 años en extensiones robustas con foco en rendimiento y calidad.",
+      "experiencias": [
+        {
+          "puesto": "Consultora SAP ABAP",
+          "empresa": "BBVA",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "España",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP ABAP",
+          "empresa": "Mercadona",
+          "periodo": "2023 – Actualidad",
+          "ubicacion": "España",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        },
+        {
+          "puesto": "Consultora SAP ABAP",
+          "empresa": "Indra",
+          "periodo": "2022 – 2024",
+          "ubicacion": "España",
+          "sector": "Desarrollo Técnico",
+          "logros": [
+            "Reportes críticos 50–70% más rápidos.",
+            "Cobertura de pruebas >70–80%.",
+            "Errores de interfase -30–45%."
+          ],
+          "actividades": [
+            "Enhancements, BADIs y AMDP.",
+            "Servicios OData para Fiori.",
+            "Gestión de transportes CTS+ y revisiones."
+          ],
+          "proyectos": [
+            "Optimización de ALV financieros/logísticos.",
+            "Interfases IDoc para logística/facturación.",
+            "Frameworks de logging y trazas."
+          ]
+        }
+      ],
+      "educacion": [
+        {
+          "grado": "Ingeniería de Sistemas",
+          "institucion": "Universidad Autónoma de Madrid"
+        }
+      ],
+      "certificaciones": [
+        "SAP Certified Development Associate – ABAP with SAP NetWeaver"
+      ],
+      "habilidades": [
+        "ABAP",
+        "OO-ABAP",
+        "OData",
+        "BAPI/BADI",
+        "IDoc",
+        "ALV",
+        "RFC",
+        "AMDP"
+      ],
+      "idiomas": {
+        "Español": "Nativo",
+        "Inglés": "Intermedio"
+      }
+    }
+  ]
+}
